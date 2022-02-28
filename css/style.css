@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: image("img\1616964605_2-p-fon-dlya-saita-2.jpg");
+  background-color: rgba(183, 205, 216, 0.692);
+}
+
+.wrapper {
+  max-width: 1170px; /* Максимальная ширина страницы */
+  margin-left: auto; /* Центрируем (автоматически слева отступ) */
+  margin-right: auto; /* Центрируем (автоматически справа отступ) */
+  padding-left: 15px; /* отступ слева внутри блока */
+  padding-right: 15px; /* отступ справа внутри блока */
+    background: #f8f8f8; /* Цвет фона */ 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {font-size: 18px;
+    color: rgb(0, 0, 0);}
+
+h2 {font-size: 16px;
+    color: rgb(0, 0, 0);}
+
+.header {
+  max-width: 1170px; /* Максимальная ширина страницы */
+  margin-left: auto; /* Центрируем (автоматически слева отступ) */
+  margin-right: auto; /* Центрируем (автоматически справа отступ) */
+  padding-left: 30px; /* отступ слева внутри блока */
+  padding-right: 30px; /* отступ справа внутри блока */
+    background: rgb(235, 235, 238); /* Цвет фона */
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+ .headLogo {   
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 300px; 
+    background: #9affe8;
+    padding: 5px;
+    padding-right: 25px; 
+     float: :left;
+  
+  }
+    .headLogoImg {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .headLogoTxt {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+  .headAdress {
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: column;
+    
+  }
+  .headPhone {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+
+.nav{
+  
+  max-width: 1170px; /* Максимальная ширина страницы */
+  margin-left: auto; /* Центрируем (автоматически слева отступ) */
+  margin-right: auto; /* Центрируем (автоматически справа отступ) */
+
+    background: rgb(226, 226, 226); /* Цвет фона */
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       height: 100%;
+       justify-content: space-around;
+}
+
+.main {
+  max-width: 1170px; /* Максимальная ширина страницы */
+  margin-left: auto; /* Центрируем (автоматически слева отступ) */
+  margin-right: auto; /* Центрируем (автоматически справа отступ) */
+  /*padding-left: 30px;  отступ слева внутри блока */
+  /*padding-right: 30px;  отступ справа внутри блока */
+    background: rgb(245, 245, 245); /* Цвет фона */
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+ }
+
+
+.navVertical {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    width : 33% ;
+    background-color: antiquewhite;
+    
+}
+
+.data {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-wrap: nowrap;
+    height: 100%;
+    width : 77% ;
+    background-color: rgb(252, 217, 217); 
+    
+}
+
+.footer {
+  
+  max-width: 1170px; /* Максимальная ширина страницы */
+  margin-left: auto; /* Центрируем (автоматически слева отступ) */
+  margin-right: auto; /* Центрируем (автоматически справа отступ) */
+  padding-left: 30px; /* отступ слева внутри блока */
+  padding-right: 30px; /* отступ справа внутри блока */
+    background: rgb(210, 220, 223); /* Цвет фона */
+    text-align: center; /* центрируем содержимое */
+    flex: 0;
+    }
